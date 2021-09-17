@@ -1,7 +1,7 @@
 void setup() {
   size(500, 500);
-  //background(255, 255, 255);
   background(0, 0, 0);
+  noLoop();
 }
 void draw() {
   for (int x = 0; x < 500; x = x + 41) {//rows
